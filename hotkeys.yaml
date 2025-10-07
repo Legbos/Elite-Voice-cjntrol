@@ -1,0 +1,167 @@
+# hotkeys.yaml
+- phrases: ["шасcи","выпустить шасси","выпустить шассе","убрать шоссе","поднять шоссе","шоссе","выпустить шасси","подготовиться к посадке"]
+  type: key
+  action:
+    key: insert
+    duration: 0.5
+
+- phrases: ["варп", "включить варп"]
+  type: key
+  action:
+    key: j
+    duration: 0.5
+
+- phrases: ["форсаж","турбо","ускорение"]
+  type: key
+  action:
+    key: tab
+    duration: 0.5
+
+- phrases: ["выйти из варп","варп стоп","стоп варп","выйти из барб","отмена варп"]
+  type: key
+  action:
+      key: j
+      duration: 0.001
+      repeat: 2
+      interval: 0.001  # пауза между повторными нажатиями
+
+- phrases: ["сильно влево", "сильно левее","сильно лева","сильно лева","сильно левой"]
+  type: key
+  action:
+    key: q
+    duration: 1.5
+
+- phrases: ["влево","левее","лево","лева","левым"]
+  type: key
+  action:
+    key: q
+    duration: 0.5
+
+- phrases: ["чуть-чуть влево","чуть-чуть левее","чуть-чуть лева","чуть-чуть левой","чуть-чуть левым"]
+  type: key
+  action:
+    key: q
+    duration: 0.2
+
+- phrases: ["сильно вправо","сильно правее","сильно права","сильно праву","сильно праву"]
+  type: key
+  action:
+    key: e
+    duration: 1.5
+
+- phrases: ["вправо","правее","права","право",]
+  type: key
+  action:
+    key: e
+    duration: 0.5
+
+- phrases: ["чуть-чуть вправо","чуть-чуть правее","чуть-чуть права","чуть-чуть направо",]
+  type: key
+  action:
+    key: e
+    duration: 0.2
+
+- phrases: ["сильно выше","сильно вверх","сильно набрать высоту","сильно корабль выше","сильно корабль вверх","сильно высоту набрать"]
+  type: key
+  action:
+    key: r
+    duration: 1.5
+
+- phrases: ["выше","верх","набрать высоту","корабль выше","корабль вверх"]
+  type: key
+  action:
+    key: r
+    duration: 0.5
+
+- phrases: ["чуть-чуть вверх","чуть чуть выше","чуть-чуть набрать высоту","чуть-чуть корабль выше","чуть-чуть корабль вверх"]
+  type: key
+  action:
+    key: r
+    duration: 0.2
+
+- phrases: ["сильно вниз","сильно спуститься","сильно корабль ниже","сильно корабль вниз"]
+  type: key
+  action:
+    key: f
+    duration: 1.5
+
+- phrases: ["вниз","чспуститься","корабль ниже","корабль вниз"]
+  type: key
+  action:
+    key: f
+    duration: 0.5
+
+- phrases: ["чуть-чуть вниз","чуть-чуть спуститься","чуть-чуть корабль ниже","чуть-чуть вниз"]
+  type: key
+  action:
+    key: f
+    duration: 0.2
+
+- phrases: ["корабль стоп","корабль стоит","карабль стоп","корабль стой","карабль стой","тормози","стой","стоп машина","стой машина"]
+  type: key
+  action:
+    key: x
+    duration: 0.5
+
+- phrases: ["цель","прицелиться","прицелиться","захват цели","отмена цели"]
+  type: key
+  action:
+    key: t
+    duration: 0.5
+
+- phrases: ["боевой режим","достать оружие","достать орудия","спрятать оружие","достать пушки"]
+  type: key
+  action:
+    key: u
+    duration: 0.05
+
+- phrases: ["сканер","пушки","переключить сканер","переключить на сканер","переключить на пушки","следующий оружие"]
+  type: key
+  action:
+    key: n
+    duration: 0.05
+
+- phrases: ["отправить"]
+  type: key
+  action:
+    key: enter
+    duration: 0.05
+
+- phrases: ["сканирования"]
+  type: mouse
+  action:
+    button: left
+    mode: hold
+    duration: 10
+
+#- phrases: ["долгие залп","длинный залп","долгие огонь","долги залп","долгие залп","длинный жалоб"]
+#  type: mouse
+#  action:
+#    button: left
+#    mode: hold
+#    duration: 10
+
+#- phrases: ["огонь","залп"]
+#  type: mouse
+#  action:
+#    button: left
+#    mode: hold
+#    duration: 5
+
+- phrases: ["автопилот"]
+  type: sequence
+  action:
+    key: z
+    duration: 0.001
+
+#- phrases: ["авария","авария"]
+#  type: combo
+#  action: ctrl+v
+
+#- phrases: ["выключи комп"]
+#  type: combo
+#  action: alt+f4
+
+#- phrases: ["катапульта"]
+#  type: script
+#  action: D:\Pragrams\Python\Kesha\start.bat
